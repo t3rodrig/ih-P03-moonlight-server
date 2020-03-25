@@ -5,6 +5,7 @@ const express      = require('express');
 const mongoose     = require('mongoose');
 const logger       = require('morgan');
 const path         = require('path');
+// const cors         = require('cors');
 
 const session    = require("express-session");
 
@@ -40,12 +41,18 @@ app.use(session({
   resave: true,
   saveUninitialized: true
 }));
-
+// USE passport.initialize() and passport.session() HERE:
 require('./passport')(app);
-    
+
+// ADD CORS SETTINGS HERE TO ALLOW CROSS-ORIGIN INTERACTION:
+// app.use(cors({
+//   credentials: true,
+//   origin: [process.env.URL_CLIENT] // <== this will be the URL of our React app
+// }));
+
 // ROUTES MIDDLEWARE STARTS HERE:
 
-app.use('/auth', require('./routes/auth'));
-      
+app.use('/api', require('./routes/auth-routes'));
+
 
 module.exports = app;
