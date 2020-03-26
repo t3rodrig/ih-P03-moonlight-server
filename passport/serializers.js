@@ -10,7 +10,5 @@ passport.deserializeUser((userIdFromSession, cb) => {
   .then(userDocument => {
     cb(null, userDocument);
   })
-  .catch(err => {
-    cb(err);
-  })
+  .catch(err => cb(err));
 });
