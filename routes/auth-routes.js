@@ -22,6 +22,7 @@ router.post("/login", (req, res, next) => {
     }
 
     // save user in session
+    // req.login() is defined by passport
     req.login(theUser, err => {
       if (err) {
         res.status(500).json({ message: 'Session save went bad.' });
@@ -78,9 +79,10 @@ router.post("/signup", (req, res, next) => {
   .catch(() => res.status(500).json({ message: "Username check went bad." }));
 });
 
-router.get("/logout", (req, res) => {
+router.post("/logout", (req, res, next) => {
+  // req.logout() is defined by passport
   req.logout();
-  res.redirect("/");
+  res.status(200).json({ message: 'Log out success!' });
 });
 
 module.exports = router;
