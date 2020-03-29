@@ -54,7 +54,7 @@ app.use(cors({
 
 app.use('/api', require('./routes/auth-routes'));
 app.use('/api/orders', require('./routes/order-routes'));
-app.use('/api', require('./routes/product-routes'));
+app.use('/api/products', require('./routes/product-routes'));
 
 
 module.exports = app;
