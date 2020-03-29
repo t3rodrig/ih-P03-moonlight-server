@@ -5,7 +5,7 @@ const router = express.Router();
 const Order = require('../models/Order');
 
 // POST route => to create a new order
-router.post('/orders', (req, res, next) => {
+router.post('/', (req, res, next) => {
   const { products, customer } = req.body;
   Order.create({
     products,
@@ -18,7 +18,7 @@ router.post('/orders', (req, res, next) => {
 });
 
 // DELETE route => to delete a specific order
-router.delete('/orders/:id', (req, res, next) => {
+router.delete('/:id', (req, res, next) => {
   if (!mongoose.Types.ObjectId.isValid(req.params.id)) {
     res.status(400).json({ message: 'Specified id is not valid' });
     return;

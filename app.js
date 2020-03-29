@@ -53,7 +53,7 @@ app.use(cors({
 // ROUTES MIDDLEWARE STARTS HERE:
 
 app.use('/api', require('./routes/auth-routes'));
-app.use('/api', require('./routes/order-routes'));
+app.use('/api/orders', require('./routes/order-routes'));
 app.use('/api', require('./routes/product-routes'));
 
 
