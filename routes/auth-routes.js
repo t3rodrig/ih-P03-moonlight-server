@@ -35,21 +35,30 @@ router.post("/login", (req, res, next) => {
 });
 
 router.post("/signup", (req, res, next) => {
-  const { username, password } = req.body;
+  const { firstName, paternalLastName, email, password } = req.body;
 
-  if (!username || !password) {
-    res.status(400).json({ message: 'Indicate username and password' });
+  const isEmpty = [ 
+    firstName,
+    paternalLastName,
+    email,
+    password
+  ].some(element => element === "");
+
+
+  if (isEmpty) {
+    res.status(400).json({ message: 'All fields are required.' });
     return;
   }
 
-  if (password.length < 7) {
-    res.status(400).json({ message: 'Please make your password at least 8 characters long for security purposes.' });    return;
+  if (password.length < 8) {
+    res.status(400).json({ message: 'Please make your password at least 8 characters long for security purposes.' });
+    return;
   }
 
-  User.findOne({ username })
+  User.findOne({ email })
   .then(user => {
     if (user !== null) {
-      res.status(400).json({ message: 'Username taken. Choose another one.' });
+      res.status(400).json({ message: 'E-mail taken.' });
       return;
     }
 
@@ -57,7 +66,9 @@ router.post("/signup", (req, res, next) => {
     const hashPass = bcrypt.hashSync(password, salt);
 
     User.create({
-      username,
+      firstName,
+      paternalLastName,
+      email,
       password: hashPass
     })
     .then(newUser => {
@@ -73,10 +84,10 @@ router.post("/signup", (req, res, next) => {
       });
     })
     .catch(() => {
-      res.status(400).json({ message: 'Saving user to database went wrong.' });
+      res.status(400).json({ message: 'Saving user went wrong.' });
     });
   })
-  .catch(() => res.status(500).json({ message: "Username check went bad." }));
+  .catch(() => res.status(500).json({ message: "E-mail check went bad." }));
 });
 
 router.post("/logout", (req, res, next) => {
