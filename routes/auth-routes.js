@@ -1,11 +1,12 @@
 const express = require("express");
-const passport = require('passport');
 const router = express.Router();
-const User = require("../models/User");
 
-// Bcrypt to encrypt passwords
+const passport = require('passport');
 const bcrypt = require("bcrypt");
 const bcryptSalt = 10;
+
+// require the user modell !!!
+const User = require("../models/User");
 
 router.post("/login", (req, res, next) => {
   passport.authenticate('local', (err, theUser, failureDetails) => {
