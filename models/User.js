@@ -18,7 +18,8 @@ const userSchema = new Schema({
     number: { type: Number },
     borough: { type: String },
     city: { type: String }
-  }
+  },
+  isUserAdmin: { type: Boolean, default: false, required: true }
 }, {
   timestamps: {
     createdAt: 'created_at',
