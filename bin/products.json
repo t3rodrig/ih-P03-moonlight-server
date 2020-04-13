@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Samsung Galaxy S5",
+    "price": 699.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim",
+    "imageURL": "https://res.cloudinary.com/t3rodrig/image/upload/v1586040871/moonlight-gallery/s5_n3psee.png"
+  },
+  {
+    "name": "Xbox One",
+    "price": 399.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim",
+    "imageURL": "https://res.cloudinary.com/t3rodrig/image/upload/v1586040869/moonlight-gallery/xbox_y5mvmg.png"
+  },
+  {
+    "name": "Playstation 4",
+    "price": 699.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim",
+    "imageURL": "https://res.cloudinary.com/t3rodrig/image/upload/v1586040869/moonlight-gallery/ps4_iqq21n.png"
+  },
+  {
+    "name": "iPad",
+    "price": 399.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim",
+    "imageURL": "https://res.cloudinary.com/t3rodrig/image/upload/v1586040875/moonlight-gallery/ipad_mqf3ta.png"
+  },
+  {
+    "name": "Vizio Smart TV",
+    "price": 699.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim",
+    "imageURL": "https://res.cloudinary.com/t3rodrig/image/upload/v1586040871/moonlight-gallery/tv_vqp84v.png"
+  },
+  {
+    "name": "Microsoft Surface",
+    "price": 399.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim",
+    "imageURL": "https://res.cloudinary.com/t3rodrig/image/upload/v1586040869/moonlight-gallery/surface_o3k6mo.png"
+  },
+  {
+    "name": "iPhone",
+    "price": 699.99,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim",
+    "imageURL": "https://res.cloudinary.com/t3rodrig/image/upload/v1586045021/moonlight-gallery/iphone_dfw08d.png"
+  }
+]
