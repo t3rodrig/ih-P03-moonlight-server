@@ -6,7 +6,7 @@
 
 ### Prerequisites
 
-You need to have installed [NodeJS](https://nodejs.org/en/) 10.x and NPM.
+You need to have installed [NodeJS](https://nodejs.org/en/) v10.19.0 and NPM.
 
 ## Authors
 
