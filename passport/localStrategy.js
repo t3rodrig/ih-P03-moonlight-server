@@ -4,11 +4,11 @@ const LocalStrategy = require('passport-local').Strategy;
 const User          = require('../models/User');
 
 passport.use(new LocalStrategy({
-    emailField: 'email',
+    usernameField: 'email',
     passwordField: 'password'
   }, 
-  (email, password, done) => {
-    User.findOne({ email })
+  (username, password, done) => {
+    User.findOne({ email: username })
     .then(foundUser => {
       if (!foundUser) {
         done(null, false, { message: 'Incorrect email' });
