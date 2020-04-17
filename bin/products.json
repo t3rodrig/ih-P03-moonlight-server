@@ -2,43 +2,50 @@
   {
     "name": "Samsung Galaxy S5",
     "price": 699.99,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim",
+    "description": "Phasellus posuere, augue a tempor luctus, ipsum magna elementum sapien, ut pharetra ligula ex sit amet ipsum. Etiam ex libero, lacinia et mollis eget, pellentesque nec dolor.",
+    "specifications": "Nulla facilisi. Donec rutrum velit sapien, sit amet consectetur elit ultrices at. Suspendisse euismod bibendum enim eu ultricies. Vestibulum ante ipsum primis in faucibus orci.",
     "imageURL": "https://res.cloudinary.com/t3rodrig/image/upload/v1586040871/moonlight-gallery/s5_n3psee.png"
   },
   {
     "name": "Xbox One",
     "price": 399.99,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim",
+    "description": "Donec massa lacus, dictum et quam sit amet, aliquam dignissim nulla. Fusce commodo sit amet nibh et viverra. In sit amet dui lectus. Vivamus sed venenatis ex. Vestibulum vel dui non.",
+    "specifications": "Phasellus posuere rutrum sapien. Aliquam id nulla in metus lacinia molestie et sit amet ipsum. Vivamus aliquet enim id est rhoncus ornare. Donec varius neque mi, eu blandit nibh.",
     "imageURL": "https://res.cloudinary.com/t3rodrig/image/upload/v1586040869/moonlight-gallery/xbox_y5mvmg.png"
   },
   {
     "name": "Playstation 4",
     "price": 699.99,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim",
+    "description": "Quisque posuere ornare tempus. Nunc in nunc vitae purus elementum tristique. Nulla finibus ultricies diam. Nullam ut urna non felis vulputate porta sed et libero. Integer pretium.",
+    "specifications": "Proin felis lectus, elementum vel vestibulum quis, pulvinar quis dui. Donec vulputate, est a convallis ultricies, ante est fringilla nunc, sit amet commodo mi leo et sapien.",
     "imageURL": "https://res.cloudinary.com/t3rodrig/image/upload/v1586040869/moonlight-gallery/ps4_iqq21n.png"
   },
   {
     "name": "iPad",
     "price": 399.99,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim",
+    "description": "Aliquam nec ullamcorper lacus. Donec ac nulla lacus. Nullam rhoncus consequat auctor. Donec eu augue orci. Aenean vitae feugiat augue. Cras sed ex suscipit, mollis nibh id, ornare sem.",
+    "specifications": "In maximus augue pulvinar quam ornare, eu iaculis erat pretium. Praesent fermentum vehicula velit, non dictum magna finibus eu. Nam quam mi, luctus eu volutpat vel, lacinia quis nunc.",
     "imageURL": "https://res.cloudinary.com/t3rodrig/image/upload/v1586040875/moonlight-gallery/ipad_mqf3ta.png"
   },
   {
     "name": "Vizio Smart TV",
     "price": 699.99,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim",
+    "description": "Vivamus vehicula eleifend augue, consequat faucibus nulla lacinia eu. Curabitur eu turpis varius, mattis arcu a, volutpat enim. Vivamus laoreet convallis tincidunt.",
+    "specifications": "Nullam arcu ex, euismod id magna non, feugiat hendrerit magna. Etiam id leo tempus, lobortis eros ac, posuere purus. Pellentesque suscipit molestie massa ut imperdiet.",
     "imageURL": "https://res.cloudinary.com/t3rodrig/image/upload/v1586040871/moonlight-gallery/tv_vqp84v.png"
   },
   {
     "name": "Microsoft Surface",
     "price": 399.99,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim",
+    "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas in nisl imperdiet lorem tincidunt tincidunt consectetur in nulla.",
+    "specifications": "Aliquam et malesuada nisl, in facilisis nisi. Etiam rhoncus elementum ornare. Curabitur consectetur enim dui, et pretium dolor efficitur porta.",
     "imageURL": "https://res.cloudinary.com/t3rodrig/image/upload/v1586040869/moonlight-gallery/surface_o3k6mo.png"
   },
   {
     "name": "iPhone",
     "price": 699.99,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim",
+    "description": "Morbi vehicula suscipit nibh et dapibus. Nam ut arcu neque. Aliquam erat volutpat. Nulla finibus vitae dolor sed placerat. Maecenas sit amet tellus at ligula bibendum aliquam non vitae sem.",
+    "specifications": "Quisque sit amet nunc viverra, dapibus orci vehicula, egestas risus. Quisque mauris tortor, consectetur nec euismod non, pulvinar vulputate velit. Proin fermentum, metus pulvinar.",
     "imageURL": "https://res.cloudinary.com/t3rodrig/image/upload/v1586045021/moonlight-gallery/iphone_dfw08d.png"
   }
 ]
